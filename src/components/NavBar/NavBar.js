@@ -1,6 +1,6 @@
 import React , {Component} from "react"
 import {Navbar,Nav,NavDropdown,Container} from 'react-bootstrap'
-import CartWidget from "./CartWidget/CartWidget"
+import CartWidget from "../CartWidget/CartWidget"
 
 export default class NavbarComp extends Component {
     render() {
