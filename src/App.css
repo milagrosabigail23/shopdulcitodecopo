@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.Controls{
+  background-color: rgba(255, 0, 76, 0.388);
+  border: 1px solid white; 
+  color: white;
+  display: flex;
+  display: inline-flex
+
+}
+
+.Button{
+  color: royalblue;  
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+
+}
+.Counter{
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.ItemDetailContainer{
+  background-color: aqua;
+}
