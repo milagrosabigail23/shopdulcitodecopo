@@ -1,12 +1,14 @@
-import carrito from './assets/carrito.svg'
+import carrito from './assets/carrito.svg';
+import "./CartWidget.css"
+import "../ItemCount/ItemCount"
 
 const CartWidget = () => {
     return (
-        <div>
-            <img src={carrito} alt="carrito-wdiget" width={40} height={45}/>
-            0
+        <div className='cart-widget'>
+            <img classMame="carrito" src={carrito} alt="carrito-wdiget"/>
+          
         </div>
-    )
-}
+    );
+};
 
-export default CartWidget
+export default CartWidget;

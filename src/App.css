@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(229,255,255,1) 0%, rgba(252,223,251,0.3618697478991597) 96%);
 }
 
 .App-logo {
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #97b1e4;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +28,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #fbfeff;
 }
 
 @keyframes App-logo-spin {
@@ -40,7 +43,7 @@
 .Controls{
   background-color: rgba(255, 0, 76, 0.388);
   border: 1px solid white; 
-  color: white;
+  color: rgb(152, 52, 52);
   display: flex;
   display: inline-flex
 
@@ -56,10 +59,10 @@
 .Counter{
   flex-direction: column;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #1e0202;
   padding-bottom: 10px;
 }
 
 .ItemDetailContainer{
-  background-color: aqua;
+  background-color: #ffffff;
 }

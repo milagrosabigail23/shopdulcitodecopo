@@ -1,0 +1,27 @@
+.Counter{
+    background-color: rgba(229, 252, 254, 0.329);
+    /* border: 1px solid black; */
+    margin: 10px 0px;
+
+}
+.Controls{
+    background-color: white;
+}
+
+.Button{
+    border: 1px solid rgba(234, 0, 234, 0.662);
+    border-radius: 8px;
+    border: 1px solid black; 
+    font-size:larger;
+    padding: 5px 20px;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 1s ease;
+    outline: 0;
+    color: #918882;
+}
+
+.Number{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 5px 20px;
+}

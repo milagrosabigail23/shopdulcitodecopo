@@ -1,0 +1,23 @@
+.CardItem{
+width: 100%;
+height: 438px;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+
+.Header{
+    background-color: #da00ed;
+}
+.ItemHeader{
+    color: rgb(222, 146, 146);
+    text-decoration: none;
+}
+.Info{
+    text-decoration:solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.ItemFooter{
+    background-color: #00ddff;
+}

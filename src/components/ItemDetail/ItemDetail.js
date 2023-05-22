@@ -1,32 +1,30 @@
 import ItemCount from '../ItemCount/ItemCount'
 
+import Card from 'react-bootstrap/Card';
 
-const ItemDetail = ({id ,name , img, category, description ,price ,stock }) => {
-    return (
-        <article className='CardItem'>
-            <header className='Header'>
-                <h2 className='ItemHeader'>
-                    {name}
-                </h2>
-            </header>
-            <picture>
-                <img src={img} alt={name} className='ItemImg' />
-            </picture>
-            <section>
-                <p className='Info'>
-                    Categoría: ${category}
-                </p>
-                <p className='Info'>
-                    Descripción: {description}
-                </p>
-                <p className='Info'>
-                    Precio: {price}
-                </p>
-            </section>
-            <footer className='ItemFooter'>
-                <ItemCount initial={1} stock={stock} onAdd={(agregarUno) => console.log('Cantidad agregada al carrito' , agregarUno)} />
-            </footer>
-        </article>
-    )}
+import { Link } from "react-router-dom";
 
-    export default ItemDetail
+const ItemDetail = ({id ,name , img, category, description }) => {
+    
+          return (     
+            <div className="container d-flex justify-content-center align-items-center h-100">    
+            <Card style={{ width: '18rem' }}>
+              <Card.Img variant="top" src={img} alt={name} />  
+              <Card.Body>
+                <Card.Title>{name}</Card.Title>
+                <Card.Text>
+               <p>Descripción: {description}</p> 
+               <p>Categoria: {category}</p> 
+                </Card.Text>
+                 <Link to={`/${id}`} className="btn btn-outline-danger" >Ver detalle</Link>
+              </Card.Body>
+            </Card>
+            <div className='Itemcount-container'> 
+    
+    </div>
+            </div>
+          );
+        }
+        export default ItemDetail
+      
+  
