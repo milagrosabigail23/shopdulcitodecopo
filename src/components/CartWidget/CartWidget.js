@@ -1,6 +1,6 @@
 import carrito from './assets/carrito.svg';
 import "./CartWidget.css"
-import "../ItemCount/ItemCount"
+//import "../ItemCount/ItemCount"
 
 const CartWidget = () => {
     return (

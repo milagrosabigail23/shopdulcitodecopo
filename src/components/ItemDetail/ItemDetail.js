@@ -19,10 +19,9 @@ const ItemDetail = ({id ,name , img, category, description }) => {
                  <Link to={`/${id}`} className="btn btn-outline-danger" >Ver detalle</Link>
               </Card.Body>
             </Card>
-            <div className='Itemcount-container'> 
-    
-    </div>
-            </div>
+             <div className='Itemcount-container'> </div>
+             <ItemCount initial={1} stock={10} onAdd={(quantity) => console.log('Cantidad agregada' , quantity)}/>
+              </div>
           );
         }
         export default ItemDetail
